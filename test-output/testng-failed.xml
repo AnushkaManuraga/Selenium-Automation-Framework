@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [selenium_automation_framework]">
+  <listeners>
+    <listener class-name="com.anushka.anf.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="ANFApp Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.anushka.anf.testCases.TC_AddNewAdressTest_002">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.anushka.anf.testCases.TC_AddNewAdressTest_002 -->
+    </classes>
+  </test> <!-- ANFApp Test(failed) -->
+</suite> <!-- Failed suite [selenium_automation_framework] -->
