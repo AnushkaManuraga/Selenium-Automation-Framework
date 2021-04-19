@@ -13,8 +13,6 @@
 		<classes>
 			<!-- <class name="com.anushka.anf.testCases.TC_LoginTest_001" /> -->
 			<class name="com.anushka.anf.testCases.TC_AddNewAdressTest_002" />
-
-
 		</classes>
 
 	</test>
